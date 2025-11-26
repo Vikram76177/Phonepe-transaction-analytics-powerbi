@@ -1,89 +1,141 @@
+# 📊 PhonePe Transaction Analytics Dashboard
 
-# Task 3 – SQL for Data Analysis (Updated Version)
+## 📌 Project Description
 
-## 📌 Overview
-This task demonstrates SQL data analysis using a 500‑row ecommerce dataset.  
-It covers everything given in the **Hints / Mini Guide**:
-- SELECT, WHERE, ORDER BY, GROUP BY  
-- JOINS (INNER, LEFT, RIGHT)  
-- Subqueries  
-- Aggregate functions (SUM, AVG, COUNT)  
-- Views for analysis  
-- Query optimization using indexes  
+This project is a Power BI-based analytical dashboard built to analyze PhonePe UPI transactions. It provides deep insights into transaction volume, amount, success and failure rates, failure reasons, category-wise performance, and regional trends. The goal is to help stakeholders understand UPI growth, detect transaction issues, and improve business decision-making.
+
+The dashboard uses real transaction datasets and presents KPI-driven visuals for monitoring performance across services such as Loans, Insurance, Recharge & Bill Payments, and Money Transfer.
 
 ---
 
-## 📁 Files Included
-- **task3_queries.sql** — complete SQL queries for the task  
-- **ecommerce_dataset_500_rows.csv** — the dataset  
-- **README.md** — documentation for GitHub submission  
+## 🎯 Project Objectives
+
+* Analyze total transactions and transaction amount
+* Measure success rate vs failure rate
+* Identify main failure reasons
+* Track UPI growth over time
+* Compare category-wise performance
+* Analyze region-wise transaction trends
+* Enable interactive filtering for insights
 
 ---
 
-## 🛠 Recommended Tools
-- DB Browser for SQLite (Free & easy)
-- MySQL Workbench
-- PGAdmin (PostgreSQL)
-- VS Code SQLite Plugin
+## 🛠️ Tools & Technologies Used
+
+* Power BI Desktop
+* Microsoft Excel
+* DAX (Data Analysis Expressions)
+* Power Query
+* Data Visualization
 
 ---
 
-## 🚀 Steps to Execute
-1. Import the CSV file into a database table named **orders**.
-2. Run queries from `task3_queries.sql` one by one.
-3. Capture screenshots of outputs (as required in assignment).
-4. Upload everything to a new GitHub repository:
-   - Dataset  
-   - SQL file  
-   - Screenshots folder  
-   - README.md  
+## 📂 Dataset Information
+
+**Source File:** 
+Dataset hosted on Google Drive due to size limit.
+Download here: [https://docs.google.com/spreadsheets/d/1FmVZ_RzKGPr2_v6JMhyDMtV0BF8y1124/edit?usp=drive_link&ouid=102548230690186410642&rtpof=true&sd=true]
+
+Sheets Included:
+
+* All_Users
+* All_Transactions
+* Loans
+* Insurance
+* Recharge & Bills
+* Money Transfer
 
 ---
 
-## 📚 What’s Inside task3_queries.sql?
+## 📈 KPIs Implemented
 
-### ✔ SELECT, WHERE, ORDER BY  
-Basic filtering and sorting queries.
-
-### ✔ GROUP BY  
-Revenue grouped by country.
-
-### ✔ JOINS  
-INNER, LEFT, RIGHT (or RIGHT emulation in SQLite).
-
-### ✔ SUBQUERIES  
-- Orders above average  
-- Users above average spending  
-
-### ✔ Aggregations  
-SUM, AVG, COUNT, MAX.
-
-### ✔ Views  
-Monthly revenue view.
-
-### ✔ Index optimization  
-Indexes on:
-- user_id  
-- order_date  
-- country  
+* ✅ Total Transactions
+* ✅ Total Transaction Amount
+* ✅ Success Rate
+* ✅ Failure Rate
+* ✅ Category-wise Performance
+* ✅ UPI Growth Trend
+* ✅ Failure Reason Distribution
+* ✅ Region-wise Transaction Analysis
 
 ---
 
-## 📝 Notes
-- SQLite uses `strftime()` for date formatting  
-- MySQL may require `DATE_FORMAT()`  
-- SQLite doesn’t support RIGHT JOIN — we used LEFT JOIN reverse method  
+## 📊 Dashboard Features
+
+* KPI Cards showing overall metrics
+* Line Chart for UPI Growth Trend
+* Donut/Bar Charts for Category Analysis
+* Pie Chart for Failure Reasons
+* Stacked Bar for Region-wise Insights
+* Interactive Filters (Slicers):
+
+  * Region
+  * Category
+  * Transaction Status
+  * Date / Month
 
 ---
 
-## 🎯 Final Deliverables for Submission
-| File | Description |
-|------|-------------|
-| **task3_queries.sql** | All SQL queries for the task |
-| **ecommerce_dataset_500_rows.csv** | Your dataset |
-| **README.md** | Explanation + instructions |
-| **screenshots/** | Folder with query output screenshots |
+## 📁 Repository Structure
+
+```
+phonepe-transaction-analytics-powerbi/
+│
+├── Dataset/
+│   └── Phonepe-Final-Dataset.xlsx
+│
+├── PowerBI/
+│   └── phonepay Project.pbix
+│
+├── Documentation/
+│   └── Business Requirements Document.docx
+│
+├── Screenshots/
+│   ├── dashboard_overview.png
+│   ├── kpi_cards.png
+│   └── failure_analysis.png
+│
+├── Icons/
+│   ├── dashboard_overview.png
+│   ├── kpi_cards.png
+│   └── failure_analysis.png
+└── README.md
+```
 
 ---
 
-If you need ZIP packaging or screenshots template, let me know!
+## 🚀 How to Use
+
+1. Download the repository
+2. Open the `.pbix` file in Power BI Desktop
+3. Ensure the dataset path matches your local system
+4. Refresh the data
+5. Explore the dashboard using slicers and filters
+
+---
+
+## 📌 Business Value
+
+This dashboard helps:
+
+* Identify transaction bottlenecks
+* Improve user experience
+* Reduce transaction failures
+* Enhance strategic planning
+* Monitor UPI growth and performance
+
+---
+
+## 👨‍💻 Author
+
+**Vikram Singh Bisht**
+B.Tech CSE | Power BI Developer | Data Analytics Enthusiast
+
+---
+
+## 📄 License
+
+This project is provided for educational and analytical purposes only.
+You may reuse with proper credit.
+---
+
