@@ -36,7 +36,7 @@ Due to GitHub file size limitations (25MB), large project files are hosted on Go
 
 ### 🔗 Power BI Report
 phonepay Project.pbix  
-Download here: PASTE PBIX LINK HERE
+Download here: https://drive.google.com/file/d/1UhIOkvbXJixNmrVaG6KSnKIUiVwwFq62/view?usp=drive_link
 
 ### 🔗 Dataset File
 Phonepe-Final-Dataset.xlsx  
