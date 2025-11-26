@@ -111,9 +111,10 @@ phonepe-transaction-analytics-powerbi/
 │   └── failure_analysis.png
 │
 ├── Icons/
-│   ├── dashboard_overview.png
-│   ├── kpi_cards.png
-│   └── failure_analysis.png
+│   ├── Bike.png
+│   ├── CC.png
+│   └── Cable TV.png
+│   └──.....
 └── README.md
 ```
 
