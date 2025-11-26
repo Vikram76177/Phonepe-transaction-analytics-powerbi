@@ -30,6 +30,21 @@ The dashboard uses real transaction datasets and presents KPI-driven visuals for
 
 ---
 
+## 📁 Project Files (External Links)
+
+Due to GitHub file size limitations (25MB), large project files are hosted on Google Drive.
+
+### 🔗 Power BI Report
+phonepay Project.pbix  
+Download here: PASTE PBIX LINK HERE
+
+### 🔗 Dataset File
+Phonepe-Final-Dataset.xlsx  
+Download here: https://docs.google.com/spreadsheets/d/1FmVZ_RzKGPr2_v6JMhyDMtV0BF8y1124/edit?usp=drive_link&ouid=102548230690186410642&rtpof=true&sd=true
+
+Please download both files and place them in the same folder before opening the Power BI report.
+
+
 ## 📂 Dataset Information
 
 **Source File:** 
@@ -82,10 +97,10 @@ Sheets Included:
 phonepe-transaction-analytics-powerbi/
 │
 ├── Dataset/
-│   └── README.md   (contains Google Drive link)
+│   └── README.md   (Drive link for Excel)
 │
 ├── PowerBI/
-│   └── phonepay Project.pbix
+│   └── README.md   (Drive link for PBIX)
 │
 ├── Documentation/
 │   └── Business Requirements Document.docx
