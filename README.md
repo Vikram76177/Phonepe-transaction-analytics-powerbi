@@ -106,9 +106,10 @@ phonepe-transaction-analytics-powerbi/
 │   └── Business Requirements Document.docx
 │
 ├── Screenshots/
-│   ├── dashboard_overview.png
-│   ├── kpi_cards.png
-│   └── failure_analysis.png
+│   ├── home.png
+│   ├── insurance.png
+│   └── loans.png
+│   └──.....
 │
 ├── Icons/
 │   ├── Bike.png
